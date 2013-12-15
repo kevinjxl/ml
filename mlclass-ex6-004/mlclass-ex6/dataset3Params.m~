@@ -37,7 +37,7 @@ for i = 1:n
     if (predictError < predictErrorMin)
       C = tempC;
       sigma = tempSigma;
-      predictErrorMin = predictError;
+      predictErrorMin = predictError
     end
   end
 end
